@@ -42,11 +42,11 @@ public class MapActivity extends Activity {
 //        super.onStop();
 //    }
 
-    @Override
-    protected void onStart() {
-
-        super.onStart();
-        MapKitFactory.getInstance().onStart();
-        mapView.onStart();
-    }
+//    @Override
+//    protected void onStart() {
+//
+//        super.onStart();
+//        MapKitFactory.getInstance().onStart();
+//        mapView.onStart();
+//    }
 }
