@@ -19,7 +19,7 @@ public class MapActivity extends Activity {
 
         MapKitFactory.setApiKey("ec9c5eca-4299-48f6-9ab1-12aaeeb7cbfd");
 
-        MapKitFactory.initialize(this);
+//        MapKitFactory.initialize(this);
 
         setContentView(R.layout.map);
         super.onCreate(savedInstanceState);
