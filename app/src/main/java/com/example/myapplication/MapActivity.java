@@ -33,14 +33,14 @@ public class MapActivity extends Activity {
                 new Animation(Animation.Type.SMOOTH, 5),
                 null);
     }
-//
-//    @Override
-//    protected void onStop() {
-//
-//        mapView.onStop();
-//        MapKitFactory.getInstance().onStop();
-//        super.onStop();
-//    }
+
+   @Override
+   protected void onStop() {
+
+       mapView.onStop();
+       MapKitFactory.getInstance().onStop();
+       super.onStop();
+   }
 
 //    @Override
 //    protected void onStart() {
