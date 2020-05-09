@@ -21,6 +21,7 @@ public class MapActivity extends Activity {
 
         MapKitFactory.initialize(this);
 
+        
         setContentView(R.layout.map);
         super.onCreate(savedInstanceState);
         mapView = (MapView)findViewById(R.id.mapview);
